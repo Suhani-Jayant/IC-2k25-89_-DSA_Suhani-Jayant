@@ -1,0 +1,64 @@
+#include <iostream>
+using namespace std;
+
+int stack[5];
+int top = -1;
+
+void push(int value)
+{
+    if(top == 4)
+    {
+        cout << "Stack Overflow";
+    }
+    else
+    {
+        top++;
+        stack[top] = value;
+        cout << value << " inserted" << endl;
+    }
+}
+
+void pop()
+{
+    if(top == -1)
+    {
+        cout << "Stack Underflow";
+    }
+    else
+    {
+        cout << stack[top] << " deleted" << endl;
+        top--;
+    }
+}
+
+void display()
+{
+    if(top == -1)
+    {
+        cout << "Stack is Empty";
+    }
+    else
+    {
+        cout << "Stack Elements: ";
+        for(int i = top; i >= 0; i--)
+        {
+            cout << stack[i] << " ";
+        }
+    }
+}
+
+int main()
+{
+    push(10);
+    push(20);
+    push(30);
+
+    display();
+
+    cout << endl;
+    pop();
+
+    display();
+
+    return 0;
+}
