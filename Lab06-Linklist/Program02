@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+struct Node
+{
+    int data;
+    Node* next;
+};
+
+int main()
+{
+    Node* first = new Node{20, NULL};
+    first->next = new Node{30, NULL};
+
+    Node* newNode = new Node;
+    newNode->data = 10;
+
+    newNode->next = first;
+    first = newNode;
+
+    Node* temp = first;
+
+    cout << "Linked List: ";
+
+    while(temp != NULL)
+    {
+        cout << temp->data << " ";
+        temp = temp->next;
+    }
+
+    return 0;
+}
