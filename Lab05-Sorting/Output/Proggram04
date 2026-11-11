@@ -1,0 +1,3 @@
+PS C:\Users\PF51M\OneDrive\文件\Desktop\DSA folder> g++ InsertionSort.cpp -o InsertionSort.exe
+PS C:\Users\PF51M\OneDrive\文件\Desktop\DSA folder> .\InsertionSort.exe
+Sorted Array: 10 20 30 40 50 
