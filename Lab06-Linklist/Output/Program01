@@ -1,0 +1,3 @@
+PS C:\Users\PF51M\OneDrive\文件\Desktop\DSA folder> g++ InsertBeginning.cpp -o InsertBeginning.exe
+PS C:\Users\PF51M\OneDrive\文件\Desktop\DSA folder> .\InsertBeginning.exe
+Linked List: 10 20 30 
