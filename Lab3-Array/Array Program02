@@ -1,0 +1,6 @@
+PS C:\Users\PF51M\OneDrive\文件\Desktop\DSA folder> g++ Insertion.cpp -o Insertion.exe
+PS C:\Users\PF51M\OneDrive\文件\Desktop\DSA folder> .\Insertion.exe
+Enter position: 3
+Enter value: 25
+Array after insertion: 10 20 25 30 40 50 
+PS C:\Users\PF51M\OneDrive\文件\Desktop\DSA folder> 
